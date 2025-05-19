@@ -1,0 +1,11 @@
+
+.error {
+    color: red;
+}
+.form-select{
+    width: 50vw
+}
+#strength {
+    margin: 0 5px;
+    display: inline-block;
+}

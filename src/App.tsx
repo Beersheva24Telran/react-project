@@ -1,12 +1,12 @@
 import React from 'react'
 
 import './App.css'
-import EmployeeForm from './components/EmployeeForm'
+import CoffeeOrderForm from './components/coffee-order/CoffeeOrderForm'
 
 const App: React.FC = () => {
   
   return (
-    <EmployeeForm submitter={(empl) => console.log(empl)}></EmployeeForm>
+    <CoffeeOrderForm submitter={(coffeeOrder) => console.log(coffeeOrder)}></CoffeeOrderForm>
   )
 }
 
