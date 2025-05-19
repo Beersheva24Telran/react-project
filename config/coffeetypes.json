@@ -1,0 +1,8 @@
+{
+"Capucciono" : {"sizes": ["short", "tall", "grand"], "flavors": ["Sweet","Roasted"]},
+ "Black":  {"sizes": ["short", "tall", "grand"], "flavors": ["Sweet","Roasted","Floral", "Bitter","Fruity"]},
+ "Americano": {"sizes": ["tall", "grand"], "flavors": ["Sweet","Roasted","Bitter"]},
+ "Latte":  {"sizes": ["short", "tall", "grand"], "flavors": ["Sweet","Roasted"]},
+ "espresso": {"sizes": ["short", "tall"]},
+ "Cortado": {"sizes": ["short", "tall", "grand"], "flavors": ["Sweet","Roasted", "Floral", "Bitter","Fruity"]}
+}
