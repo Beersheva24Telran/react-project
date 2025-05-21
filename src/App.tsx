@@ -1,13 +1,10 @@
-import React from 'react'
 
-import './App.css'
-import CoffeeOrderForm from './components/coffee-order/CoffeeOrderForm'
+import { FaStar,  FaRegStar } from "react-icons/fa";
 
-const App: React.FC = () => {
-  
+export default function App() {
   return (
-    <CoffeeOrderForm submitter={(coffeeOrder) => console.log(coffeeOrder)}></CoffeeOrderForm>
-  )
+    <h3 style={{fontSize: "15rem"}}>
+      <FaRegStar    color="red"/>?
+    </h3>
+  );
 }
-
-export default App
